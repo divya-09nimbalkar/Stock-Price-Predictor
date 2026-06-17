@@ -1,0 +1,53 @@
+2026-06-04 23:55:10,883 - INFO - Stock Price Predictor - Neural Network - Starting Application
+2026-06-04 23:55:10,883 - INFO - Generating 500 days of synthetic stock price data...
+2026-06-04 23:55:10,909 - INFO - Generated data shape: (500, 6)
+2026-06-04 23:55:10,910 - INFO - Price range: $86.21 - $149.23
+2026-06-04 23:55:10,910 - INFO - ============================================================
+2026-06-04 23:55:10,911 - INFO - Starting Neural Network model training...
+2026-06-04 23:55:10,911 - INFO - ============================================================
+2026-06-04 23:55:10,911 - INFO - Using provided data with shape (500, 6)
+2026-06-04 23:55:10,926 - INFO - Fitted scaler on training data
+2026-06-04 23:55:10,931 - INFO - Created sequences - X shape: (440, 240), y shape: (440,)
+2026-06-04 23:55:10,933 - INFO - Training set: (352, 240), Test set: (88, 240)
+2026-06-04 23:55:10,933 - INFO - Training Multi-Layer Perceptron (3 hidden layers)...
+2026-06-04 23:55:51,862 - INFO - Stock Price Predictor - Neural Network - Starting Application
+2026-06-04 23:55:51,862 - INFO - Generating 500 days of synthetic stock price data...
+2026-06-04 23:55:51,870 - INFO - Generated data shape: (500, 6)
+2026-06-04 23:55:51,870 - INFO - Price range: $86.21 - $149.23
+2026-06-04 23:55:51,870 - INFO - ============================================================
+2026-06-04 23:55:51,871 - INFO - Starting Neural Network model training...
+2026-06-04 23:55:51,871 - INFO - ============================================================
+2026-06-04 23:55:51,871 - INFO - Using provided data with shape (500, 6)
+2026-06-04 23:55:51,877 - INFO - Fitted scaler on training data
+2026-06-04 23:55:51,882 - INFO - Created sequences - X shape: (440, 240), y shape: (440,)
+2026-06-04 23:55:51,884 - INFO - Training set: (352, 240), Test set: (88, 240)
+2026-06-04 23:55:51,884 - INFO - Training Multi-Layer Perceptron (3 hidden layers)...
+2026-06-04 23:55:54,005 - INFO - Train R² Score: 0.9619
+2026-06-04 23:55:54,005 - INFO - Test R² Score: 0.4683
+2026-06-04 23:55:54,005 - INFO - Train RMSE: $2.0738
+2026-06-04 23:55:54,006 - INFO - Test RMSE: $4.9892
+2026-06-04 23:55:54,006 - INFO - Test MAE: $3.6546
+2026-06-04 23:55:54,006 - INFO - Test MAPE: 3.78%
+2026-06-04 23:55:54,007 - INFO - Model training completed successfully!
+2026-06-04 23:55:54,007 - INFO - ============================================================
+2026-06-04 23:55:54,012 - INFO - Model saved to stock_model.pkl
+2026-06-04 23:55:54,013 - INFO - Scaler saved to stock_scaler.pkl
+2026-06-04 23:55:54,013 - INFO - 
+Predicting next 7 days...
+2026-06-04 23:55:54,025 - INFO - Predictions for next 7 days:
+2026-06-04 23:55:54,028 - INFO -   2026-06-05: $103.12
+2026-06-04 23:55:54,028 - INFO -   2026-06-06: $102.59
+2026-06-04 23:55:54,029 - INFO -   2026-06-07: $101.83
+2026-06-04 23:55:54,029 - INFO -   2026-06-08: $100.86
+2026-06-04 23:55:54,029 - INFO -   2026-06-09: $99.58
+2026-06-04 23:55:54,029 - INFO -   2026-06-10: $99.84
+2026-06-04 23:55:54,029 - INFO -   2026-06-11: $100.54
+2026-06-04 23:55:54,030 - INFO - 
+============================================================
+2026-06-04 23:55:54,030 - INFO - Summary Statistics:
+2026-06-04 23:55:54,030 - INFO -   Total Training Samples: 352
+2026-06-04 23:55:54,030 - INFO -   Total Test Samples: 88
+2026-06-04 23:55:54,031 - INFO -   Best Test R² Score: 0.4683
+2026-06-04 23:55:54,031 - INFO - ============================================================
+2026-06-04 23:55:54,031 - INFO - Application completed successfully!
+2026-06-04 23:55:54,031 - INFO - ============================================================
